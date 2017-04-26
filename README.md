@@ -13,6 +13,11 @@ Python, NumPy, SciPy, Sci-kit
 
 ## Installation:
 
+1. Create a new, empty folder called opensource/ within your home folder. Navigate to it (cd opensource), then [fork and clone](https://help.github.com/articles/fork-a-repo/) the Oppia-ml repo. This will create a new folder named opensource/oppia-ml.
+
+2. Navigate to opensource/oppia-ml/ and run:
+
+  pip install -r requirements.txt
 
 ## Note:
 1. `load_data.load_huge_data()` depends on a json file containing 600,000 tweets. You can download the same from ....  and 
@@ -22,5 +27,6 @@ Python, NumPy, SciPy, Sci-kit
 5. `load_data` shuffles and divides data into a training set and a testing set. Thus, the performance metrics might differ across different runs of any algorithm.
 
 ## Tasks:
-1. Use TF-IDF values in naive_bayes.py and check the performance improvement. 
+1. Use TF-IDF values in naive_bayes.py and check the performance improvement.
 2. Implement SVM (linear kernel) and compare its performance with scikit version.
+3. Calculate stats for [LDAStringClassifier](https://github.com/oppia/oppia/blob/develop/extensions/classifiers/LDAStringClassifier/LDAStringClassifier.py).
