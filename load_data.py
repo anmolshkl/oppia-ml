@@ -1,4 +1,5 @@
 from io import open
+from itertools import islice
 import numpy as np
 import os
 import random

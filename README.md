@@ -32,3 +32,21 @@ Python, NumPy, SciPy, Sci-kit
 1. Use TF-IDF values in naive_bayes.py and check the performance improvement.
 2. Implement SVM (linear kernel) and compare its performance with scikit version.
 3. Calculate stats for [LDAStringClassifier](https://github.com/oppia/oppia/blob/develop/extensions/classifiers/LDAStringClassifier/LDAStringClassifier.py).
+4. Use Numpy in naive_bayes.py.
+
+## Results
+
+The dataset comprises of random tweets and hence the vocabulary size is "expected" to vary a lot across the samples. However, we do not expect the same for the answers in Oppia, and, these results should
+only be used fo reference purpose.
+
+| Dataset size | Classifier model size (in KB) |
+| ------------- | ------------- |
+| 69  | 11 |
+| 349  | 24 |
+| 2500 | 107 |
+| 8749 | 618 |
+| 22749 | 1800 |
+| 34999 | 3300 |
+| 43749 | 4100 |
+
+The dataset size varies linearly wih the size of the classifier (assumption: the data is really random).
