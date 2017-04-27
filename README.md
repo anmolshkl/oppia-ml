@@ -13,9 +13,9 @@ Python, NumPy, SciPy, Sci-kit
 
 ## Installation:
 
-1. Create a new, empty folder called opensource/ within your home folder. Navigate to it (cd opensource), then [fork and clone](https://help.github.com/articles/fork-a-repo/) the Oppia-ml repo. This will create a new folder named opensource/oppia-ml.
+1. Create a new, empty folder called opensource/ within your home folder. Navigate to it (cd opensource), then [fork and clone](https://help.github.com/articles/fork-a-repo/) the Oppia-ml repo. This will create a new folder named opensource/oppia-ml. Rename this to oppia_ml.
 
-2. Navigate to opensource/oppia-ml/ and run:
+2. Navigate to opensource/oppia_ml/ and run:
 
   ```
   pip install -r requirements.txt
