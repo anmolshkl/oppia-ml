@@ -22,16 +22,16 @@ Python, NumPy, SciPy, Sci-kit
   ```
 
 ## Note:
-1. `load_data.load_huge_data()` depends on a json file containing 600,000 tweets. You can download the same from (link to be available shortly).
+1. `load_data.load_huge_data()` depends on a json file containing 600,000 tweets. You can download the same from [here](https://drive.google.com/open?id=0B5NwjTjzPp9lZHlHNGdvdnpUQWs).
 2. `naive_bayes.py` is custom implementation of Naive Bayes algorithm. 
-3. A comparison of different algorithms is available here - 
+3. A comparison of different algorithms is available [here](https://docs.google.com/spreadsheets/d/1lWpSh7fuz8xi2oDaHXS_uMtxBqOONquKZPajOYlHl64/edit?usp=sharing).
 4. Use `scikit_stress_test.py` for checking the execution time of any particular sci-kit algorithm with datasets of different sizes.
 5. `load_data.py` shuffles and divides data into a training set and a testing set. Thus, the performance metrics might differ across different runs of any algorithm.
 
 ## Tasks:
 1. Use TF-IDF values in naive_bayes.py and check the performance improvement.
 2. Implement SVM (linear kernel) and compare its performance with scikit version.
-3. Calculate stats for [LDAStringClassifier](https://github.com/oppia/oppia/blob/develop/extensions/classifiers/LDAStringClassifier/LDAStringClassifier.py).
+3. Calculate stats for [LDAStringClassifier](https://github.com/oppia/oppia/blob/develop/extensions/classifiers/LDAStringClassifier/LDAStringClassifier.py). [DONE]
 4. Use Numpy in naive_bayes.py.
 
 ## Results
