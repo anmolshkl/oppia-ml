@@ -37,7 +37,7 @@ Python, NumPy, SciPy, Sci-kit
 ## Results
 
 The dataset comprises of random tweets and hence the vocabulary size is "expected" to vary a lot across the samples. However, we do not expect the same for the answers in Oppia, and, these results should
-only be used fo reference purpose.
+only be used fo reference purpose. FYI, the models were generated using decision tree classifier.
 
 | Dataset size | Classifier model size (in KB) |
 | ------------- | ------------- |
@@ -49,4 +49,21 @@ only be used fo reference purpose.
 | 34999 | 3300 |
 | 43749 | 4100 |
 
-The dataset size varies linearly wih the size of the classifier (assumption: the data is really random).
+Following are the sizes for different models generated using LinearSVC classifier:
+
+| Dataset size | Classifier model size (in KB) |
+| ------------- | ------------- |
+| 70  | 6.2 |
+| 200  | 14 |
+| 400 | 24 |
+| 800 | 48 |
+| 1700 | 82 |
+| 3400 | 170 |
+| 7000 | 476 |
+| 14000| 846 |
+| 28000| 1400 |
+| 42000 | 2100 |
+
+The dataset size varies linearly wih the size of the classifier (assumption: the data is really random). For easy visualization, we have plotted the classifier size vs number of training examples and fitted a line:
+
+![visualization](https://github.com/anmolshkl/jusPaid/raw/master/visualization.png)
